@@ -1,0 +1,18 @@
+[project]
+name = "AirGPT"
+version = "0.1.0"
+description = "AirGPT: Conversational AI for Atmospheric Science"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipython>=9.1.0",
+    "langchain>=0.3.23",
+    "langchain-openai>=0.3.12",
+    "langgraph>=0.3.29",
+    "llama-index>=0.12.30",
+    "matplotlib>=3.10.1",
+    "notebook>=7.4.0",
+    "pandas>=2.2.3",
+    "psycopg[binary]>=3.2.6",
+    "scikit-learn>=1.6.1",
+]
